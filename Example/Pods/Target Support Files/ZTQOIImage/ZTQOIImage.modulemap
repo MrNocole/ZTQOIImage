@@ -1,0 +1,6 @@
+framework module ZTQOIImage {
+  umbrella header "ZTQOIImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

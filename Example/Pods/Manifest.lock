@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZTQOIImage (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZTQOIImage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZTQOIImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZTQOIImage: 0c86f394eddedee970a6e1f4476466a0c243d7f5
+
+PODFILE CHECKSUM: 05d7c4321fd007aa106aa8cd10e56b825cf6ede2
+
+COCOAPODS: 1.11.3

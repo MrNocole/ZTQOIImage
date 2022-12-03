@@ -1,0 +1,22 @@
+{
+  "name": "ZTQOIImage",
+  "version": "0.1.0",
+  "summary": "A short description of ZTQOIImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/=/ZTQOIImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "=": "zhangtao.zw@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/=/ZTQOIImage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZTQOIImage/Classes/**/*"
+}
