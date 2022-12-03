@@ -308,7 +308,7 @@ struct _ZTQOIImageHeader makeQOIHeader(const char *bytes) {
 +(NSData*)decodeQOIImage:(ZTQOIImage*) img {
     const char *bytes = img.data.bytes;
     char *pixels;
-    uint32_t px_pos , p = QOI_HEADER_SIZE , run = 0 ,  px_len = img.header.width*img.header.height*img.header.channel, channel = img.header.channel , chunks_len = img.data.length - QOI_PADDING_SIZE;
+    uint32_t px_pos , p = QOI_HEADER_SIZE , run = 0 ,  px_len = img.header.width*img.header.height*img.header.channel, channel = img.header.channel , chunks_len = (uint32_t)img.data.length - QOI_PADDING_SIZE;
     ZTPNGPixel pixel , indexinit_pixel , index[64];
     INITQOIPIXEL(pixel);
     INITQOIPIXEL(indexinit_pixel);
